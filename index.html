@@ -46,6 +46,41 @@
             font-size: 1.2em;
             color: #666;
         }
+        .profile-image {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin: 20px auto;
+        }
+        .about {
+            text-align: left;
+            margin: 20px 0;
+        }
+        .about h2 {
+            font-size: 1.8em;
+            color: #333;
+        }
+        .about p {
+            font-size: 1.1em;
+            color: #666;
+        }
+        .projects, .interests {
+            margin: 20px 0;
+        }
+        .projects h2, .interests h2 {
+            font-size: 1.8em;
+            color: #333;
+        }
+        .projects ul, .interests ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .projects li, .interests li {
+            background-color: #f4f4f4;
+            margin: 10px 0;
+            padding: 10px;
+            border-left: 5px solid #333;
+        }
         footer {
             background-color: #333;
             color: white;
@@ -82,13 +117,40 @@
     <div class="container">
         <div class="blurb">
             <h1>你好，我是Hu Lifang！</h1>
+            <img src="path/to/profile.jpg" alt="Profile Image" class="profile-image">
             <p>我是一名学生，希望能与大家多多交流。<a href="/about">了解更多关于我的信息...</a></p>
         </div><!-- /.blurb -->
+        <div class="about">
+            <h2>关于我</h2>
+            <p>我对计算机科学非常感兴趣，特别是Web开发和数据分析。我正在学习各种编程语言，并尝试应用它们来解决实际问题。</p>
+            <p>我的兴趣爱好包括读书、旅行和摄影。我喜欢探索新的地方，并记录下我看到的美丽风景。</p>
+        </div><!-- /.about -->
+        <div class="projects">
+            <h2>项目经历</h2>
+            <ul>
+                <li>项目一：描述项目内容和技术栈。</li>
+                <li>项目二：描述项目内容和技术栈。</li>
+                <li>项目三：描述项目内容和技术栈。</li>
+            </ul>
+        </div><!-- /.projects -->
+        <div class="interests">
+            <h2>兴趣爱好</h2>
+            <ul>
+                <li>小说：喜欢看小说。</li>
+                <li>旅行：探索新的地方并记录美丽风景。</li>
+                <li>摄影：捕捉生活中的精彩瞬间。</li>
+            </ul>
+        </div><!-- /.interests -->
     </div><!-- /.container -->
     <footer>
         <ul>
-            <li><a href="hlf202404@gmail.com">电子邮件</a></li>
-            <li><a href="https://github.com/Hu Lifang">github.com/hulili</a></li>
+            <li><a href="mailto:hlf202404@gmail.com">电子邮件</a></li>
+            <li><a href="https://github.com/hulifang">github.com/hulifang</a></li>
+        </ul>
+    </footer>
+</body>
+</html>
+
         </ul>
     </footer>
 </body>
