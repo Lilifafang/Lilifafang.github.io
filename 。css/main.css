@@ -1,104 +1,114 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Hu Lifang的个人主页</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-        }
-        nav {
-            background-color: #333;
-            color: white;
-            padding: 10px 0;
-        }
-        nav ul {
-            list-style-type: none;
-            margin: 0;
-            padding: 0;
-            text-align: center;
-        }
-        nav ul li {
-            display: inline;
-            margin: 0 15px;
-        }
-        nav ul li a {
-            color: white;
-            text-decoration: none;
-        }
-        .container {
-            max-width: 800px;
-            margin: 20px auto;
-            padding: 20px;
-            background-color: white;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
-        }
-        .blurb {
-            text-align: center;
-        }
-        .blurb h1 {
-            font-size: 2em;
-            color: #333;
-        }
-        .blurb p {
-            font-size: 1.2em;
-            color: #666;
-        }
-        .profile-image {
-            width: 150px;
-            height: 150px;
-            border-radius: 50%;
-            margin: 20px auto;
-        }
-        .about {
-            text-align: left;
-            margin: 20px 0;
-        }
-        .about h2 {
-            font-size: 1.8em;
-            color: #333;
-        }
-        .about p {
-            font-size: 1.1em;
-            color: #666;
-        }
-        .projects, .interests {
-            margin: 20px 0;
-        }
-        .projects h2, .interests h2 {
-            font-size: 1.8em;
-            color: #333;
-        }
-        .projects ul, .interests ul {
-            list-style-type: none;
-            padding: 0;
-        }
-        .projects li, .interests li {
-            background-color: #f4f4f4;
-            margin: 10px 0;
-            padding: 10px;
-            border-left: 5px solid #333;
-        }
-        footer {
-            background-color: #333;
-            color: white;
-            text-align: center;
-            padding: 10px 0;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
-        }
-        footer ul {
-            list-style-type: none;
-            margin: 0;
-            padding: 0;
-        }
-        footer ul li {
-            display: inline;
-            margin: 0 10px;
-        }
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+nav {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.blurb {
+    text-align: center;
+}
+
+.blurb h1 {
+    font-size: 2em;
+    color: #333;
+}
+
+.blurb p {
+    font-size: 1.2em;
+    color: #666;
+}
+
+.profile-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 20px auto;
+}
+
+.about, .projects, .interests {
+    margin: 20px 0;
+}
+
+.about h2, .projects h2, .interests h2 {
+    font-size: 1.8em;
+    color: #333;
+}
+
+.about p, .projects ul, .interests ul {
+    font-size: 1.1em;
+    color: #666;
+}
+
+.projects ul, .interests ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.projects li, .interests li {
+    background-color: #f4f4f4;
+    margin: 10px 0;
+    padding: 10px;
+    border-left: 5px solid #333;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+footer ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+footer ul li a {
+    color: white;
+    text-decoration: none;
+}
+
         footer ul li a {
             color: white;
             text-decoration: none;
